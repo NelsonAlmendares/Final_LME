@@ -158,7 +158,121 @@ figure {
 .breadcrumbs {
     padding-top: 7em;
 }
-
+.grid__info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1rem;
+    padding: 2rem;
+}
+.card-info-icon {
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.bxs-offer,.bxs-popsicle,.bxs-star {
+    font-size: 4rem;
+}
+.font_small {
+    font-size: small;
+}
+.bg-destinos {
+    background-color: #F5F7F9;
+}
+.inner_text-card {
+    font-size: 1.1rem;
+}
+.pointer-flex {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.pointer-flex:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.inner_text-card-price {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.right-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bx-chevron-right {
+    font-size: 2rem;
+}
+.li-item-card {
+    color: #00A991;
+    font-weight: 500;
+}
+.left-card-sub {
+    margin-top: 3rem;
+    height: 110px;
+}
+.card__bottom {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.terms {
+    margin-top: 1rem;
+    font-size: small;
+}
+.btn_submit {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+.btn_submit-top {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DADADA;
+    transition: 0.3s ease-in-out;
+}
+.btn_submit:hover {
+    background-color: #DCE3E9;
+}
+.btn_submit-top:hover {
+    background-color: #DCE3E9;
+}
+.auto__fill {
+    width: 310px !important;
+}
+#no__list-ul {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 1.5rem;
+}
+.ul__top-line {
+    border-top: 1px solid #DCE3E9;
+}
+.icon__plane > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bxs-plane-alt {
+    background: #F0F0F0;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+.mini__logo-card {
+    height: 23px;
+    width: 23px;
+}
+.sm-text {
+    font-size: small;
+}
+.card__spacing {
+    margin-top: 1rem;
+}
 
 /* FOOTER */
 /* -------------------------- FOOTER -------------------------- */
