@@ -273,6 +273,15 @@ figure {
 .card__spacing {
     margin-top: 1rem;
 }
+.final {
+    background-color: white;
+}
+.final__text {
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 2em;
+}
 
 /* FOOTER */
 /* -------------------------- FOOTER -------------------------- */
