@@ -283,6 +283,58 @@ figure {
     padding-bottom: 2em;
 }
 
+
+/* PAGINA DE PAQUETES */
+.offers {
+    background: url('../resources/Diseño\ sin\ título1.png');
+    object-fit: contain;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}
+.content-top {
+    padding-top: 8.5rem;
+}
+.content-top-insied {
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.search__buttons {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+}
+.search__buttons:hover {
+    background-color: #DCE3E9;
+}
+.buttons {
+    display: flex;
+    flex-direction: row !important;
+}
+.column1 {
+    margin-right: 0.5rem;
+}
+.bx {
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+}
+.breadcrumb {
+    margin-top: 3rem;
+}
+.cards_info {
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 1rem;
+        color: #E3E3E3;
+}
+
+
 /* FOOTER */
 /* -------------------------- FOOTER -------------------------- */
 footer {

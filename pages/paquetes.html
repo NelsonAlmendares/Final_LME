@@ -13,6 +13,25 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" rel="stylesheet">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <style>
+        .badge {
+            display: flex;
+            align-items: center;
+        }
+        .input-group .badge {
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 2;
+        }
+        .input-group .form-control {
+          padding-right: 50px; /* Ajusta según el tamaño del badge */
+        }
+        .x-circle {
+        }
+      </style>
 </head>
 
 <body class="bg-destinos" >
@@ -31,7 +50,7 @@
                         <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destinos</a>
+                        <a class="nav-link" href="./destinos.html">Destinos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Paquetes</a>
@@ -66,8 +85,103 @@
     </nav>
 
     <!-- CONTENIDO PRINCIPAL -->
-    <main class="container"></main>
+    <div class="offers" id="offers">
+        <main class="container d-flex content-top">
+            <div class="col-md-7">
+                <h1 class="fw-bold text-white">
+                    Ofertas de vuelos desde San <br> Salvador, El Salvador
+                </h1>
+            </div>
+            <div class="col-md-5">
+                <div class="card p-3 content-top-insied">
+                    <div class="card-body">
+                        <h3 class="fw-bold">Descubre viajes baratos</h3>
+                        <p>Te buscaremos ofertas desde la ciudad que quieras.</p>
+                        <div class="input-group position-relative">
+                            <input type="text" class="form-control form-control-lg" placeholder="Origen de salida: ">
+                            <div class="badge bg-success">San Salvador <box-icon name='x-circle' type='solid' color='#ffffff' ></box-icon></div>
+                        </div>
+                        <div class="row mt-4 d-flex">
+                            <div class="buttons">
+                                <div class="column1">
+                                    <button class="search__buttons">Fechas <i class='bx bxs-calendar' undefined ></i></button>
+                                </div>
+                                <div class="column1">
+                                    <button class="search__buttons">Precio <i class='bx bxs-dollar-circle' ></i></button>
+                                </div>
+                                <div class="column1">
+                                    <button class="search__buttons">Idas y vueltas <i class='bx bx-transfer'></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </main>
+    </div>
+    <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
 
+          <div class="cards_info d-flex p-3">
+            <div class="card">
+                <img src="../resources/cards-mini/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../resources/cards-mini/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../resources/cards-mini/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards_info d-flex p-3">
+            <div class="card">
+                <img src="../resources/cards-mini/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../resources/cards-mini/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../resources/cards-mini/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="container footer__content">
